@@ -2,15 +2,6 @@
 <html lang="en">
 
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-E00L9PT3V9');
-  </script>
   <title>{{ site.name }}</title>
 
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -24,6 +15,8 @@
 
 </head>
 
+
+
 <body>
   <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr style="padding:0px">
@@ -32,25 +25,31 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:middle">
               <h1>
-                Leonid Keselman
+                Emre Can Acikgoz
               </h1>
-              <p>I am a PhD student at the <a href="https://www.ri.cmu.edu/">Robotics Institute</a>, part of the <a href="https://www.scs.cmu.edu/">School of Computer Science</a> at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, where I work on 3D computer vision. My PhD advisor is <a href="http://www.cs.cmu.edu/~hebert/">Martial Hebert</a>.
-              </p>
               <p>
-                From 2011 to 2017, I worked at <a href="https://www.intel.com">Intel</a>, as part of <a href="https://www.intelrealsense.com/">Intel RealSense</a>. I primarily designed computer vision algorithms for efficient hardware ASICs, including the Intel RealSense <a href="https://software.intel.com/en-us/articles/realsense-r200-camera">R200</a> and <a href="https://software.intel.com/en-us/realsense/d400">D400</a> RGB-D sensors. Additionally, I worked on <a href="https://github.com/IntelRealSense/librealsense">software APIs</a>, <a href="https://patents.google.com/patent/US9992474B2">active illumination systems</a>, <a href="https://patents.google.com/patent/US9304597">human-computer interaction devices</a>, and helped develop demos for trade shows, including CES 2012-2016.
+                I am a PhD fellow in Computer Science at <a href="https://cs.illinois.edu/">UIUC</a> advised by <a href="https://scholar.google.com/citations?user=GMcL_9kAAAAJ">Prof. Dilek Hakkani-Tur</a> and <a href="https://scholar.google.com/citations?user=8XSlAp4AAAAJ&hl=en">Prof. Gokhan Tur</a>. My research focus is in Conversational and Generative AI.
               </p>
+                                                                    <HR>
               <p>
-                I have an MS in Computer Science (AI focus) from <a href="http://cs.stanford.edu">Stanford University</a>, where I was a research assistant for <a href="http://svl.stanford.edu/">Silvio Savarese</a> and a teaching assistant for <a href="http://svl.stanford.edu/">Fei-Fei Li</a> (<a href="http://vision.stanford.edu/teaching/cs131_fall1617/">CS131</a> & <a href="http://cs231n.stanford.edu/2017/">CS231N</a>). I have a BS in EECS from <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I worked in <a href="https://people.eecs.berkeley.edu/~pister/">Kris Pister's</a> lab.
+                I obtained my MSc in <a href="https://cs.ku.edu.tr/">Computer Science</a> at <a href="https://www.ku.edu.tr/en/">Koc University</a>. I worked around Large Language Models and Multimodal Learning under the supervision of <a href="http://www.denizyuret.com/">Deniz Yuret</a> and <a href="https://aykuterdem.github.io/">Aykut Erdem</a>.
               </p>
+                                                                    <HR>
+              <p>
+                Prior to my MSc, I recieved my BSc in Electrical and Electronics Engineering (AI focus) from Koc University, where I worked under the supervision of <a href="http://www.denizyuret.com/">Deniz Yuret</a> on <a href="http://www.denizyuret.com/2022/08/kuis-ai-success-in-1st-shared-task-on.html">supervised and unsupervised morphological analysis</a>.
+              </p>
+                                                                    <HR>
               <p style="text-align:center">
-                <a target="_blank" href="https://mailhide.io/e/B8TyS"> Email</a> &nbsp;/&nbsp;
-                <a href="https://github.com/leonidk">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=GCYG4GoAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/lkeselman"> LinkedIn </a>
+                <a href="mailto:eacikgoz17@ku.edu.tr"> Email </a> &nbsp;/&nbsp;
+                <a href="https://github.com/emrecanacikgoz"> GitHub </a> &nbsp;/&nbsp;
+                <a href="https://huggingface.co/emrecanacikgoz"> HuggingFace </a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=l6h_3H8AAAAJ&hl"> Google Scholar </a> &nbsp;/&nbsp;
+                <a href="https://www.linkedin.com/in/emrecanacikgoz97"> LinkedIn </a>
               </p>
+              
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/circle_bw_crop.jpg">
+              <img style="width:80%;max-width:80%" alt="profile photo" src="images/emrecan.jpeg">
             </td>
           </tr>
         </table>
@@ -60,198 +59,178 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-                I'm interested in computer vision, machine learning, optimization, graphics and robotics.
+                My research is in Conversational Agents and Large Language Models.
               </p>
             </td>
           </tr>
         </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'research' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-
-              <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.youtube %}
-              <a href="{{post.youtube}}">youtube</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-        <br>
-        <br>
-        <br>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Intel Projects</h2>
-              <p>Besides my work on the RealSense depth sensors and the publications above, a sampling of my publicly disclosed work
-              </p>
+              <h2>2024</h2>
+                                                                    <HR>
             </td>
           </tr>
         </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'Intel' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              <em>{{post.categories}} {{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
-
-              <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
+        <table 
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/respact.png" alt="respact" width="160" height="120" style="border-style: none">
+          </td>
+          <td width="75%" valign="middle">
+            <a href="https://vardhandongre.github.io/respact-llm/" id="respact">
+              <span class="papertitle"><strong>ReSpAct: Harmonizing Reasoning, Speaking, and Acting</strong></span>
+            </a>
+            <br>
+            Vardhan Dongre, Xiaocheng Yang, <strong>Emre Can Acikgoz</strong>, Suvodip Dey, Gokhan Tur, Dilek Hakkani-Tür
+            <br>
+            <em>arXiv</em>, 2024
+            <br>
+            <a href="https://arxiv.org/abs/2411.00927">arxiv</a> 
+            / <a href="https://vardhandongre.github.io/respact-llm/">website</a> 
+            / <a href="https://github.com/vardhandongre/Respact">code</a> 
+            <p>
+              ReSpAct is a framework that enables LLM agents to engage in interactive, user-aligned task-solving. It enhances agents' ability to clarify, adapt, and act on feedback.</p>
+          </td>
+        </tr>
         </table>
-        <br>
-        <br>
-        <br>
+
+        <table 
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/bridge.png" alt="hippo" width="160" height="120" style="border-style: none">
+          </td>
+          <td width="75%" valign="middle">
+            <a href="https://emrecanacikgoz.github.io/Bridging-the-Bosphorus/" id="hippo">
+              <span class="papertitle"><strong>Bridging the Bosphorus: Advancing Turkish Large Language Models through Strategies for Low-Resource Language Adaptation and Benchmarking</strong></span>
+            </a>
+            <br>
+            <strong>Emre Can Acikgoz</strong>, Mete Erdoğan, Deniz Yuret
+            <br>
+            <em>EMNLP Workshop</em>, 2024
+            <br>
+            <a href="https://arxiv.org/abs/2405.04685">arxiv</a> 
+            / <a href="https://emrecanacikgoz.github.io/Bridging-the-Bosphorus/">website</a> 
+            / <a href="https://github.com/emrecanacikgoz/turkish-llm">code</a> 
+            / <a href="https://emrecanacikgoz.github.io/Bridging-the-Bosphorus/assets/images/poster.pdf">poster</a>
+            <p>
+              This study evaluates the effectiveness of training strategies for large language models in low-resource languages like Turkish, focusing on model adaptation, development, and fine-tuning to enhance reasoning skills and address challenges such as data scarcity and catastrophic forgetting.</p>
+          </td>
+        </tr>
+        </table>
+
+        <table 
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/hippo.png" alt="bridge" width="160" height="120" style="border-style: none">
+          </td>
+          <td width="75%" valign="middle">
+            <a href="https://cyberiada.github.io/Hippocrates/" id="hippo">
+              <span class="papertitle"><strong>Hippocrates: An Open-Source Framework for Advancing Large Language Models in Healthcare</strong></span>
+            </a>
+            <br>
+            <strong>Emre Can Acikgoz</strong>, Osman Batur İnce, Rayene Bech, Arda Anıl Boz, Ilker Kesen, Aykut Erdem, Erkut Erdem
+            <br>
+            <em>NeurIPS Workshop (Oral)</em>, 2024
+            <br>
+            <a href="https://arxiv.org/abs/2404.16621">arxiv</a> 
+            / <a href="https://cyberiada.github.io/Hippocrates/">website</a> 
+            / <a href="https://cyberiada.github.io/Hippocrates/static/images/hippocrates-poster.pdf">poster</a>
+            <p>We present Hippocrates, an open-source LLM framework specifically developed for the medical domain. Also, we introduce Hippo, a family of 7B models tailored for the medical domain, fine-tuned from Mistral and LLaMA2 through continual pre-training, instruction tuning, and reinforcement learning from human and AI feedback.</p>
+          </td>
+        </tr>
+        </table>
+
+
+        <table 
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/vilma.png" alt="vilma" width="160" height="120" style="border-style: none">
+          </td>
+          <td width="75%" valign="middle">
+            <a href="https://cyberiada.github.io/ViLMA/" id="vilma">
+              <span class="papertitle"><strong>ViLMA: A Zero-Shot Benchmark for Linguistic and Temporal Grounding in Video-Language Models</strong></span>
+            </a>
+            <br>
+            Ilker Kesen, Andrea Pedrotti, Mustafa Dogan, Michele Cafagna, <strong>Emre Can Acikgoz</strong>, Letitia Parcalabescu, Iacer Calixto, Anette Frank, Albert Gatt, Aykut Erdem, Erkut Erdem
+            <br>
+            <em>ICLR</em>, 2024
+            <br>
+            <a href="https://arxiv.org/abs/2311.07022">arxiv</a> 
+            / <a href=" https://cyberiada.github.io/ViLMA/">website</a> 
+            / <a href="https://github.com/ilkerkesen/ViLMA">code</a>
+            <p>ViLMA (Video Language Model Assessment) presents a comprehensive benchmark for Video-Language Models, starting with a fundamental comprehension test and followed by a more advanced evaluation for temporal reasoning skills.</p>
+          </td>
+        </tr>
+        </table>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Other Projects</h2>
-              <p> These include coursework, side projects and unpublished research work. 
+              <h2>2022</h2>
+                                                                    <HR>
+            </td>
+          </tr>
+        </table>
+        
+        <table 
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/mrl2022.png" alt="mrl" width="160" height="120" style="border-style: none">
+          </td>
+          <td width="75%" valign="middle">
+            <a href="https://arxiv.org/pdf/2211.01736.pdf" id="vilma">
+              <span class="papertitle"><strong>Transformers on Multilingual Clause-Level Morphology</strong></span>
+            </a>
+            <br>
+            <strong>Emre Can Acikgoz</strong>, Tilek Chubakov, Müge Kural, Gözde Gül Şahin, Deniz Yuret
+            <br>
+            <em>EMNLP Workshop</em>, 2022
+            <br>
+            <a href="https://arxiv.org/pdf/2211.01736.pdf">arxiv</a> 
+            / <a href="https://github.com/emrecanacikgoz/mrl2022">code</a> 
+            / <a href="/pdfs/mrl-pres-new.pdf">slides</a>
+            <p>This paper describes the winning approaches in <a href="https://sigtyp.github.io/st2022-mrl.html">MRL: The 1st Shared Task on Multilingual Clause-level Morphology</a>. Our submission, which excelled in all three parts of the shared task — inflection, reinflection, and analysis — won the first prize in each category.</p>
+          </td>
+        </tr>
+        </table>
+            
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Tutor</h2>
+                                                                    <HR>
+              <p>
+                <a href="https://aykuterdem.github.io/classes/comp547.s24/">Comp547: Deep Unsupervised Learning (Spring'24)</a>  <br>
+                <a href="https://aykuterdem.github.io/classes/comp541.f23/">Comp541: Deep Learning (Fall'23)</a>  <br>
+                Comp542: Natural Language Processing (Spring'23) <br>
+                <a href="https://aykuterdem.github.io/classes/comp541.f22/">Comp541: Deep Learning (Fall'22)</a>  <br>
+                <a href="https://aykuterdem.github.io/classes/comp547.s22/">Comp547: Deep Unsupervised Learning (Spring'22)</a>  <br>
               </p>
             </td>
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat != 'research' and cat != 'Intel' %}
           <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              <em>{{post.categories}} {{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
-
-              <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Talks</h2>
+                                                                    <HR>
+              <p>
+                Huawei NLP/ML Community Seminer Series: Morphological Analysis with Large Language Models (2022, Virtual) <br>
+                EMNLP MRL: Winning Paper Presentation (2022, Abu-Dhabi)
+              </p>
             </td>
           </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
         </table>
-
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:0px">
               <br>
-              <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
+              <p style="text-align:right;font-size:small;">
+                <a style="font-size:small;" href="https://jonbarron.info">(website template credits)</a>
               </p>
             </td>
           </tr>
